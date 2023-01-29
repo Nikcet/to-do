@@ -1,0 +1,17 @@
+@import "variables";
+
+.list__item {
+    border: 1px solid red;
+    box-sizing: border-box;
+    max-width: 300px;
+    min-width: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.list__text {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
